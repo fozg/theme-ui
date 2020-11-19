@@ -1,6 +1,9 @@
 {
-  "name": "@theme-ui/core",
-  "version": "0.4.0-rc.12",
+  "name": "@fozg/theme-ui-core",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "version": "0.4.0-rc.12.1",
   "source": "src/index.ts",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -11,15 +14,13 @@
     "watch": "microbundle watch --no-compress --tsconfig tsconfig.json",
     "typecheck": "tsc --noEmit"
   },
-  "repository": "system-ui/theme-ui",
+  "repository": "fozg/theme-ui",
   "author": "Brent Jackson",
   "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
   "dependencies": {
     "@emotion/core": "^10.0.0",
     "@theme-ui/css": "^0.4.0-rc.11",
+    "@types/node": "^14.14.8",
     "deepmerge": "^4.2.2"
   },
   "peerDependencies": {

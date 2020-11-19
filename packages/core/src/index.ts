@@ -10,28 +10,7 @@ import packageInfo from '@emotion/core/package.json'
 
 import './react-jsx'
 
-export type {
-  CSSObject,
-  CSSOthersObject,
-  CSSProperties,
-  CSSPseudoSelectorProps,
-  ColorMode,
-  ColorModesScale,
-  Label,
-  ResponsiveStyleValue,
-  Scale,
-  StylePropertyValue,
-  TLengthStyledSystem,
-  Theme,
-  ThemeDerivedStyles,
-  ThemeStyles,
-  ThemeUICSSObject,
-  ThemeUICSSProperties,
-  ThemeUIExtendedCSSProperties,
-  ThemeUIStyleObject,
-  VariantProperty,
-} from '@theme-ui/css'
-export * from './types'
+export * from '@theme-ui/css'
 
 const __EMOTION_VERSION__ = packageInfo.version
 
